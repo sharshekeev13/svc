@@ -1,12 +1,12 @@
 // src/components/Top.jsx
 import React from "react";
 import { useTranslation } from "react-i18next";
-import Key_art from "./imgTop/key_art.png";
-import Platforms_Ps4 from "./imgTop/platforms_ps4.png";
-import Platforms__Switch from "./imgTop/platforms_switch.png";
-import Platfoms_Steam from "./imgTop/platforms_steam.png";
-import Platforms_Gog from "./imgTop/platforms_gog.png";
-import Main_Logo from "./imgTop/main_logo.png";
+import Key_art from "./imgTop/key-art.png";
+import Platforms_Ps4 from "./imgTop/ps4.png";
+import Platforms__Switch from "./imgTop/nintendo.jpeg";
+import Platforms_Steam from "./imgTop/steam.jpeg";
+import Platforms_Gog from "./imgTop/gog.jpeg";
+import Main_Logo from "./imgTop/CHAOS.png";
 import "./styles/top.css";
 
 const Top = () => {
@@ -44,7 +44,7 @@ const Top = () => {
           <img
             className="steam"
             width="120px"
-            src={t("top.images.platforms_steam") || Platfoms_Steam}
+            src={t("top.images.platforms_steam") || Platforms_Steam}
             alt="Steam"
           />
         </div>
