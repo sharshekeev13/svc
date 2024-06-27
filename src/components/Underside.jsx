@@ -1,7 +1,6 @@
 // src/components/Underside.jsx
 import React from "react";
 import { useTranslation } from "react-i18next";
-
 import "./styles/underside.css";
 
 const Underside = () => {
