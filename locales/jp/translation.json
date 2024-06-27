@@ -9,7 +9,7 @@
             "product": "PRODUCT"
         },
         "images": {
-            "snk_logo": "/src/components/imgHeader/logo.png"
+            "snk_logo": "./imgHeader/logo.png"
         }
     },
     "top": {
@@ -19,12 +19,12 @@
             "launch_trailer": "LAUNCH TRAILER"
         },
         "images": {
-            "key_art": "/src/components/imgTop/key-art.png",
-            "platforms_ps4": "/src/components/imgTop/ps4.png",
-            "platforms_switch": "/src/components/imgTop/nintendo.jpeg",
-            "platforms_steam": "/src/components/imgTop/steam.jpeg",
-            "platforms_gog": "/src/components/imgTop/gog.jpeg",
-            "main_logo": "/src/components/imgTop/CHAOS.png"
+            "key_art": "./imgTop/key-art.png",
+            "platforms_ps4": "./imgTop/ps4.png",
+            "platforms_switch": "./imgTop/nintendo.jpeg",
+            "platforms_steam": "./imgTop/steam.jpeg",
+            "platforms_gog": "./imgTop/gog.jpeg",
+            "main_logo": "./imgTop/CHAOS.png"
         }
     },
     "underside": {
@@ -34,19 +34,19 @@
             "game_name": "『SVC CHAOS』がグレードアップして復活！"
         },
         "images": {
-            "snk_logo": "/src/components/imgUndersideSNK/snk.png",
-            "photo1": "/src/components/imgUndersideSNK/photo1.png",
-            "photo2": "/src/components/imgUndersideSNK/photo2.png",
-            "photo3": "/src/components/imgUndersideSNK/photo3.png",
-            "photo4": "/src/components/imgUndersideSNK/photo4.png",
-            "photo5": "/src/components/imgUndersideSNK/photo5.png",
-            "x": "/src/components/imgUndersideSNK/x.png",
-            "capcom_logo": "/src/components/imgUndersideCapCom/capcom.png",
-            "capcom_photo1": "/src/components/imgUndersideCapCom/photo1.png",
-            "capcom_photo2": "/src/components/imgUndersideCapCom/photo2.png",
-            "capcom_photo3": "/src/components/imgUndersideCapCom/photo3.png",
-            "capcom_photo4": "/src/components/imgUndersideCapCom/photo4.png",
-            "capcom_photo5": "/src/components/imgUndersideCapCom/photo5.png"
+            "snk_logo": "./imgUndersideSNK/snk.png",
+            "photo1": "./imgUndersideSNK/photo1.png",
+            "photo2": "./imgUndersideSNK/photo2.png",
+            "photo3": "./imgUndersideSNK/photo3.png",
+            "photo4": "./imgUndersideSNK/photo4.png",
+            "photo5": "./imgUndersideSNK/photo5.png",
+            "x": "./imgUndersideSNK/x.png",
+            "capcom_logo": "./imgUndersideCapCom/capcom.png",
+            "capcom_photo1": "./imgUndersideCapCom/photo1.png",
+            "capcom_photo2": "./imgUndersideCapCom/photo2.png",
+            "capcom_photo3": "./imgUndersideCapCom/photo3.png",
+            "capcom_photo4": "./imgUndersideCapCom/photo4.png",
+            "capcom_photo5": "./imgUndersideCapCom/photo5.png"
         }
     },
     "characters": {
@@ -69,13 +69,13 @@
         "text3": "3段階まで溜めることができる「グルーヴパワーゲージシステム」、",
         "text4": "そして超必殺技を遙かに上回る大技「エクシード技」などのシステムを搭載！",
         "images": {
-            "battle1": "/src/components/imgBattleSystem/battleSystem1.jpg",
-            "battle2": "/src/components/imgBattleSystem/battleSystem2.jpg",
-            "battle3": "/src/components/imgBattleSystem/battleSystem3.jpg",
-            "battle4": "/src/components/imgBattleSystem/battleSystem4.jpg",
-            "battle5": "/src/components/imgBattleSystem/battleSystem5.png",
-            "battle6": "/src/components/imgBattleSystem/battleSystem6.jpg",
-            "new_feature": "/src/components/imgBattleSystem/new.png"
+            "battle1": "./imgBattleSystem/battleSystem1.jpg",
+            "battle2": "./imgBattleSystem/battleSystem2.jpg",
+            "battle3": "./imgBattleSystem/battleSystem3.jpg",
+            "battle4": "./imgBattleSystem/battleSystem4.jpg",
+            "battle5": "./imgBattleSystem/battleSystem5.png",
+            "battle6": "./imgBattleSystem/battleSystem6.jpg",
+            "new_feature": "./imgBattleSystem/new.png"
         },
         "new_feature": {
             "title": "キャラクターごとの",
@@ -91,12 +91,12 @@
             "challenge": "世界中のプレイヤーに挑戦しよう！"
         },
         "images": {
-            "photo1": "/src/components/imgOnlineBattle/onlineBattle.jpg",
-            "photo2": "/src/components/imgOnlineBattle/onlineBattle2.jpg",
-            "photo3": "/src/components/imgOnlineBattle/onlineBattle3.jpg",
-            "photo4": "/src/components/imgOnlineBattle/onlineBattle4.jpg",
-            "photo5": "/src/components/imgOnlineBattle/onlineBattle5.png",
-            "new": "/src/components/imgOnlineBattle/new.png"
+            "photo1": "./imgOnlineBattle/onlineBattle.jpg",
+            "photo2": "./imgOnlineBattle/onlineBattle2.jpg",
+            "photo3": "./imgOnlineBattle/onlineBattle3.jpg",
+            "photo4": "./imgOnlineBattle/onlineBattle4.jpg",
+            "photo5": "./imgOnlineBattle/onlineBattle5.png",
+            "new": "./imgOnlineBattle/new.png"
         }
     },
     "gallery_mode": {
@@ -108,10 +108,10 @@
             "description2": "『SVC CHAOS』を存分に楽しもう！"
         },
         "images": {
-            "new": "/src/components/imgGalleryMode/new.png",
-            "gallery1": "/src/components/imgGalleryMode/galleryMode1.png",
-            "gallery2": "/src/components/imgGalleryMode/galleryMode2.png",
-            "gallery3": "/src/components/imgGalleryMode/galleryMode3.png"
+            "new": "./imgGalleryMode/new.png",
+            "gallery1": "./imgGalleryMode/galleryMode1.png",
+            "gallery2": "./imgGalleryMode/galleryMode2.png",
+            "gallery3": "./imgGalleryMode/galleryMode3.png"
         }
     },
     "product": {
