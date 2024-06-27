@@ -2,6 +2,12 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import "./styles/onlainBattle.css";
 import New from "./imgOnlineBattle/new.png";
+import photo1 from "./imgOnlineBattle/onlineBattle.jpg";
+import photo2 from "./imgOnlineBattle/onlineBattle2.jpg";
+import photo3 from "./imgOnlineBattle/onlineBattle3.jpg";
+import photo4 from "./imgOnlineBattle/onlineBattle4.jpg";
+import photo5 from "./imgOnlineBattle/onlineBattle5.png";
+import new_image from "./imgOnlineBattle/new.png";
 
 const OnlainBattle = () => {
   const { t } = useTranslation();
@@ -27,31 +33,31 @@ const OnlainBattle = () => {
         <img
           className="photoBlock1"
           width="400px"
-          src={t("online_battle.images.photo1")}
+          src={photo1}
           alt="photo1"
         />
         <img
           className="photoBlock2"
           width="400px"
-          src={t("online_battle.images.photo2")}
+          src={photo2}
           alt="photo2"
         />
         <img
           className="photoBlock3"
           width="400px"
-          src={t("online_battle.images.photo3")}
+          src={photo3}
           alt="photo3"
         />
         <img
           className="photoBlock4"
           width="400px"
-          src={t("online_battle.images.photo4")}
+          src={photo4}
           alt="photo4"
         />
         <div className="photoBlock5">
           <img
             width="650px"
-            src={t("online_battle.images.photo5")}
+            src={photo5}
             alt="photo5"
           />
         </div>

@@ -1,5 +1,12 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import battle1 from "./imgBattleSystem/battleSystem1.jpg";
+import battle2 from "./imgBattleSystem/battleSystem2.jpg";
+import battle3 from "./imgBattleSystem/battleSystem3.jpg";
+import battle4 from "./imgBattleSystem/battleSystem4.jpg";
+import battle5 from "./imgBattleSystem/battleSystem5.png";
+import battle6 from "./imgBattleSystem/battleSystem6.jpg";
+import new_feature from "./imgBattleSystem/new.png";
 import "./styles/battleSystem.css";
 
 const BattleSystem = () => {
@@ -24,41 +31,41 @@ const BattleSystem = () => {
           key="battle1"
           className="battle1"
           width="250px"
-          src={t("battle_system.images.battle1")}
+          src={battle1}
           alt="error"
         />
         <img
           key="battle2"
           className="battle2"
           width="250px"
-          src={t("battle_system.images.battle2")}
+          src={battle2}
           alt="error"
         />
         <img
           key="battle3"
           className="battle3"
           width="250px"
-          src={t("battle_system.images.battle3")}
+          src={battle3}
           alt="error"
         />
         <img
           key="battle4"
           className="battle4"
           width="250px"
-          src={t("battle_system.images.battle4")}
+          src={battle4}
           alt="error"
         />
         <img
           key="battle5"
           className="battle5"
           width="330px"
-          src={t("battle_system.images.battle5")}
+          src={battle5}
           alt="error"
         />
         <img
           key="battle6"
           width="330px"
-          src={t("battle_system.images.battle6")}
+          src={battle6}
           alt="error"
         />
       </div>
@@ -68,7 +75,7 @@ const BattleSystem = () => {
           <img
             key="new_feature"
             width="150px"
-            src={t("battle_system.images.new_feature")}
+            src={new_feature}
             alt="error"
           />
         </div>

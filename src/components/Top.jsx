@@ -17,7 +17,7 @@ const Top = () => {
       <div className="pers">
         <img
           className="pers"
-          src={t("top.images.key_art") || Key_art}
+          src={Key_art}
           alt=""
         />
       </div>
@@ -26,7 +26,7 @@ const Top = () => {
           <img
             className="ps4"
             width="120px"
-            src={t("top.images.platforms_ps4") || Platforms_Ps4}
+            src={Platforms_Ps4}
             alt="PS4"
           />
         </div>
@@ -35,7 +35,7 @@ const Top = () => {
           <img
             className="nintendo"
             width="120px"
-            src={t("top.images.platforms_switch") || Platforms__Switch}
+            src={Platforms__Switch}
             alt="Nintendo"
           />
         </div>
@@ -44,7 +44,7 @@ const Top = () => {
           <img
             className="steam"
             width="120px"
-            src={t("top.images.platforms_steam") || Platforms_Steam}
+            src={Platforms_Steam}
             alt="Steam"
           />
         </div>
@@ -53,7 +53,7 @@ const Top = () => {
           <img
             className="gog"
             width="100px"
-            src={t("top.images.platforms_gog") || Platforms_Gog}
+            src={Platforms_Gog}
             alt="GOG"
           />
         </div>
@@ -62,7 +62,7 @@ const Top = () => {
           <img
             className="chaos"
             width="630px"
-            src={t("top.images.main_logo") || Main_Logo}
+            src={Main_Logo}
             alt="Chaos Logo"
           />
         </div>

@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next"; 
 import { Link, Events } from "react-scroll"; 
 import "./styles/header.css"; 
- 
+import logo from "./imgHeader/logo.png"; 
+
 const Header = () => { 
   const { t, i18n } = useTranslation(); 
   const [selectedLanguage, setSelectedLanguage] = useState("jp"); 
@@ -23,7 +24,7 @@ const Header = () => {
         <img 
           className="SNK" 
           width="170px" 
-          src={t("header.images.snk_logo")} 
+          src={logo} 
           alt="SNK Logo" 
         /> 
       </div> 
