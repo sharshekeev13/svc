@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.productBody {
+  background-color: rgb(0, 0, 0);
+  height: 1200px;
+}
+
+.ProductLine {
+  margin-top: -0px;
+  width: 100%;
+  height: 4px;
+  background-color: rgb(255, 255, 255);
+}
+.Product > h1 {
+  color: rgb(0, 0, 0);
+  margin-left: 120px;
+  font-size: 40px;
+  letter-spacing: 3px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.Product > p {
+  color: rgb(0, 0, 0);
+  margin-top: -7px;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 600;
+}
+.Product {
+  width: 440px;
+  height: 80px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 548px;
+  clip-path: polygon(0 0, 100% 0, 84.9% 100%, 15% 100%);
+}
+
+.PersPhoto {
+  margin-top: 200px;
+  margin-left: 160px;
+  width: 570px;
+}
+
+.chaosPhoto {
+  margin-left: 870px;
+  margin-top: -845px;
+}
+.chaosPhoto > h1 {
+  width: 200px;
+  color: white;
+  margin-left: 155px;
+}
+
+.buttons {
+  margin-left: 60px;
+  padding-top: 30px;
+}
+
+.ps4Block {
+  margin-top: 20px;
+  margin-left: 780px;
+  background-color: rgb(20, 20, 173);
+  width: 265px;
+  height: 105px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.ps4Block:hover {
+  margin-top: 20px;
+  margin-left: 780px;
+  background-color: rgb(22, 22, 98);
+  width: 265px;
+  height: 105px;
+  background-color: rgba(40, 8, 203, 0.936);
+  box-shadow: 0px 0px 20px 5px rgba(40, 8, 203, 0.936);
+}
+.ps4Block:active {
+  transform: scale(0.95);
+  background-color: rgb(18, 18, 88);
+  box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.3);
+}
+
+.ps4BlockText {
+  color: white;
+  padding-top: 7px;
+  text-align: center;
+  font-size: 8px;
+}
+.ps4BlockText > h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  margin-top: 5px;
+}
+
+.nintendoBlock {
+  margin-top: -105px;
+  margin-left: 1080px;
+  background-color: rgb(193, 22, 22);
+  width: 265px;
+  height: 105px;
+  padding-top: 18px;
+  padding-left: 35px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+.nintendoBlock:hover {
+  margin-top: -105px;
+  margin-left: 1080px;
+  width: 265px;
+  height: 105px;
+  background-color: rgb(223, 31, 31);
+  box-shadow: 0px 0px 20px 5px rgb(223, 31, 31);
+}
+.nintendoBlock:active {
+  transform: scale(0.95);
+  background-color: rgb(88, 18, 18);
+  box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.3);
+}
+.nintedoBlockText > h1 {
+  font-size: 17px;
+  margin-left: -13px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+.steamBlock {
+  margin-top: 20px;
+  margin-left: 780px;
+  background-color: rgb(39, 38, 38);
+  width: 265px;
+  height: 105px;
+  padding-left: 35px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+.steamBlock:hover {
+  margin-top: 20px;
+  margin-left: 780px;
+  width: 265px;
+  height: 105px;
+  background-color: rgb(56, 56, 56);
+  box-shadow: 0px 0px 20px 5px rgb(76, 76, 76);
+}
+.steamBlock:active {
+  transform: scale(0.95);
+  background-color: rgb(19, 19, 19);
+  box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.3);
+}
+.steamBlockText > h1 {
+  font-size: 15px;
+  margin-top: -9px;
+  margin-left: 24px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+.steamBlockText > img {
+  margin-top: -10px;
+}
+
+.gogBlock {
+  margin-top: -105px;
+  margin-left: 1080px;
+  background-color: rgb(37, 37, 182);
+  width: 265px;
+  height: 105px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.gogBlock:hover {
+  margin-top: -105px;
+  margin-left: 1080px;
+  background-color: rgb(22, 22, 98);
+  width: 265px;
+  height: 105px;
+  background-color: rgb(59, 35, 181);
+  box-shadow: 0px 0px 20px 5px rgb(59, 35, 181);
+}
+.gogBlock:active {
+  transform: scale(0.95);
+  background-color: rgb(18, 18, 88);
+  box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.3);
+}
+
+.gogBlockText {
+  color: white;
+  text-align: center;
+  font-size: 8px;
+}
+.gogBlockText > h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  margin-top: -14px;
+}
+
+.infoBlock > h1 {
+  color: white;
+  margin-left: 840px;
+  margin-top: 90px;
+  font-size: 25px;
+}
+.infoBlock > h2 {
+  color: white;
+  margin-left: 840px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+}
+.infoBlock > h3 {
+  color: white;
+  margin-left: 840px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+}
+.infoBlock > h4 {
+  color: white;
+  margin-left: 840px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+}
+.infoBlock > h5 {
+  color: white;
+  margin-left: 840px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+}
+.infoBlock > h6 {
+  color: white;
+  margin-left: 840px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+}
+
+.footer > img {
+  margin-top: 80px;
+  margin-left: 150px;
+}
+.footer > h1 {
+  color: white;
+  margin-left: 380px;
+  margin-top: -73px;
+  font-size: 13px;
+  letter-spacing: -px;
+  font-weight: 400;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer > h2 {
+  color: white;
+  margin-left: 380px;
+  font-size: 13px;
+  letter-spacing: -px;
+  font-weight: 400;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer > h3 {
+  color: white;
+  margin-left: 380px;
+  font-size: 13px;
+  letter-spacing: -px;
+  font-weight: 400;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer > h4 {
+  color: white;
+  margin-left: 380px;
+  font-size: 13px;
+  letter-spacing: -px;
+  font-weight: 400;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,34 @@
+/* src/styles/characterGrid.css */
+
+.character-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-side,
+.right-side {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.character-cell {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  flex: 1 1 calc(33.333% - 10px); /* Flexbox для трех колонок */
+  box-sizing: border-box;
+}
+
+.character-cell img {
+  width: 100%;
+  height: auto;
+}
+
+.special-character {
+  border: 2px solid red; /* Пример стиля: Красная рамка */
+  background-color: yellow; /* Пример стиля: Желтый фон */
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); /* Пример стиля: Красная тень */
+ 
+}

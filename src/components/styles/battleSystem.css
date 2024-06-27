@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bsBody {
+  background-color: rgb(0, 0, 0);
+  height: 900px;
+}
+
+.battleSystemLine {
+  margin-top: 0px;
+  width: 100%;
+  height: 4px;
+  background-color: rgb(255, 255, 255);
+}
+.battleSystem > h1 {
+  color: rgb(0, 0, 0);
+  margin-left: 67px;
+  font-size: 35px;
+  letter-spacing: 3px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.battleSystem > p {
+  color: rgb(0, 0, 0);
+  margin-top: -7px;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 600;
+}
+.battleSystem {
+  width: 440px;
+  height: 75px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 548px;
+  clip-path: polygon(0 0, 100% 0, 84.9% 100%, 15% 100%);
+}
+
+.bsText1 {
+  color: white;
+  text-align: center;
+  margin-top: 120px;
+  font-size: 45px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.bsText2 {
+  margin-top: 30px;
+  color: white;
+  font-size: 20px;
+  width: 700px;
+  margin-left: 410px;
+  text-align: center;
+}
+.bsText3 {
+  color: white;
+  font-size: 20px;
+  width: 700px;
+  margin-left: 410px;
+  text-align: center;
+}
+.bsText4 {
+  color: white;
+  font-size: 20px;
+  width: 700px;
+  margin-left: 410px;
+  text-align: center;
+}
+
+.pictureBlock {
+  margin-left: 260px;
+  margin-top: 50px;
+}
+
+.battle2 {
+  margin-left: 10px;
+}
+.battle5 {
+  margin-left: 360px;
+  margin-top: 70px;
+  margin-right: 10px;
+}
+.new {
+  margin-left: 100px;
+}
+
+.newImg {
+  margin-left: 00px;
+  margin-top: -180px;
+}
+
+.new > h1 {
+  color: yellow;
+  font-size: 24px;
+  margin-left: 160px;
+  margin-top: -145px;
+}
+.new > h2 {
+  color: yellow;
+  font-size: 24px;
+  margin-left: 160px;
+}
+.new > h3 {
+  color: yellow;
+  font-size: 23px;
+  margin-left: 145px;
+}

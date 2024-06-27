@@ -1,0 +1,139 @@
+{
+    "header": {
+        "menu": {
+            "top": "TOP",
+            "characters": "CHARACTERS",
+            "battle_system": "BATTLE SYSTEM",
+            "online_battle": "ONLINE BATTLE",
+            "gallery_mode": "GALLERY MODE",
+            "product": "PRODUCT"
+        },
+        "images": {
+            "snk_logo": "/src/components/imgHeader/logo.png"
+        }
+    },
+    "top": {
+        "texts": {
+            "top_text_1": "Now Available",
+            "top_text_2": "Purchase Here",
+            "launch_trailer": "LAUNCH TRAILER"
+        },
+        "images": {
+            "key_art": "/src/components/imgTop/key-art.png",
+            "platforms_ps4": "/src/components/imgTop/ps4.png",
+            "platforms_switch": "/src/components/imgTop/nintendo.jpeg",
+            "platforms_steam": "/src/components/imgTop/steam.jpeg",
+            "platforms_gog": "/src/components/imgTop/gog.jpeg",
+            "main_logo": "/src/components/imgTop/CHAOS.png"
+        }
+    },
+    "underside": {
+        "texts": {
+            "collaboration_announcement": "The dream collaboration of popular characters from SNK and CAPCOM!",
+            "release_year": "The fighting game that debuted in arcades in 2003",
+            "game_name": "'SVC CHAOS' is back with an upgraded version!"
+        },
+        "images": {
+            "snk_logo": "/src/components/imgUndersideSNK/snk.png",
+            "photo1": "/src/components/imgUndersideSNK/photo1.png",
+            "photo2": "/src/components/imgUndersideSNK/photo2.png",
+            "photo3": "/src/components/imgUndersideSNK/photo3.png",
+            "photo4": "/src/components/imgUndersideSNK/photo4.png",
+            "photo5": "/src/components/imgUndersideSNK/photo5.png",
+            "x": "/src/components/imgUndersideSNK/x.png",
+            "capcom_logo": "/src/components/imgUndersideCapCom/capcom.png",
+            "capcom_photo1": "/src/components/imgUndersideCapCom/photo1.png",
+            "capcom_photo2": "/src/components/imgUndersideCapCom/photo2.png",
+            "capcom_photo3": "/src/components/imgUndersideCapCom/photo3.png",
+            "capcom_photo4": "/src/components/imgUndersideCapCom/photo4.png",
+            "capcom_photo5": "/src/components/imgUndersideCapCom/photo5.png"
+        }
+    },
+    "characters": {
+        "texts": {
+            "characters_text1": "Characters from SNK and CAPCOM",
+            "characters_text2": "A total of 36 characters gather!",
+            "characters_text3": "From SNK, iconic fighting game characters like Kyo Kusanagi, Terry Bogard, and Mai Shiranui appear, along with Mars People and Athena!",
+            "characters_text4": "From CAPCOM, fighters such as Ryu, Chun-Li, and Demitri join alongside Zero and Red Arremer!",
+            "characters_text5": "A total of 36 characters from both companies are available for use!",
+            "characters_text6": "They were hidden characters in the arcade version.",
+            "characters_text7": "Athena and Red Arremer are available right from the start.",
+            "characters_text8": "Available for use from the beginning."
+        }
+    },
+    "battle_system": {
+        "title": "BATTLE SYSTEM",
+        "subtitle": "Battle System",
+        "text1": "Crush or be crushed... The ultimate 1 vs 1 battle!",
+        "text2": "The 'Front Ground Step' allows you to transition into an attack at any time from a step,",
+        "text3": "The 'Groove Power Gauge System' can be charged up to three levels,",
+        "text4": "and the 'Exceed Technique' surpasses super special moves, among other systems!",
+        "images": {
+            "battle1": "/src/components/imgBattleSystem/battleSystem1.jpg",
+            "battle2": "/src/components/imgBattleSystem/battleSystem2.jpg",
+            "battle3": "/src/components/imgBattleSystem/battleSystem3.jpg",
+            "battle4": "/src/components/imgBattleSystem/battleSystem4.jpg",
+            "battle5": "/src/components/imgBattleSystem/battleSystem5.png",
+            "battle6": "/src/components/imgBattleSystem/battleSystem6.jpg",
+            "new_feature": "/src/components/imgBattleSystem/new.png"
+        },
+        "new_feature": {
+            "title": "Character-specific",
+            "subtitle": "hit detection range",
+            "description": "Newly equipped with 'Hit Detection Display Function'!"
+        }
+    },
+    "online_battle": {
+        "title": "ONLINE BATTLE",
+        "subtitle": "Online Battle",
+        "new_section": {
+            "title": "Online battles are now more comfortable and exciting!",
+            "description": "New rollback netcode and lobby function that supports up to 9 players!",
+            "tournament_mode": "A tournament mode that allows you to choose from single, double elimination, and league formats!",
+            "challenge": "Challenge players from around the world!"
+        },
+        "images": {
+            "photo0": "/src/components/imgOnlineBattle/new.png",
+            "photo1": "/src/components/imgOnlineBattle/onlineBattle.jpg",
+            "photo2": "/src/components/imgOnlineBattle/onlineBattle2.jpg",
+            "photo3": "/src/components/imgOnlineBattle/onlineBattle3.jpg",
+            "photo4": "/src/components/imgOnlineBattle/onlineBattle4.jpg",
+            "photo5": "/src/components/imgOnlineBattle/onlineBattle5.png",
+            "new": "/src/components/imgOnlineBattle/new.png"
+        }
+    },
+    "gallery_mode": {
+        "title": "GALLERY MODE",
+        "subtitle": "GALLERY MODE",
+        "texts": {
+            "header": "Includes key art and character illustrations!",
+            "description1": "New gallery mode with 89 pieces of key art and character illustrations!",
+            "description2": "Fully enjoy 'SVC CHAOS'!"
+        },
+        "images": {
+            "new": "/src/components/imgGalleryMode/new.png",
+            "gallery1": "/src/components/imgGalleryMode/galleryMode1.png",
+            "gallery2": "/src/components/imgGalleryMode/galleryMode2.png",
+            "gallery3": "/src/components/imgGalleryMode/galleryMode3.png"
+        }
+    },
+    "product": {
+        "title": "PRODUCT",
+        "subtitle": "Product Information",
+        "availableNow": "Available Now",
+        "buyOnPS": "Buy on PlayStation™Store",
+        "buyOnNintendo": "Buy on Nintendo eShop",
+        "buyOnSteam": "Buy on Steam Store",
+        "buyOnGOG": "Buy on GOG Store",
+        "infoTitle": "Title Overview",
+        "gameTitle": "■Title: SNK VS. CAPCOM SVC CHAOS",
+        "genre": "■Genre: Fighting",
+        "platforms": "■Platforms: PlayStation®4 / Nintendo Switch / Steam / GOG",
+        "price": "■Price: 3,960 yen (including tax) *Digital version",
+        "releaseDate": "■Release Date: July XX, 2024",
+        "footer1": "©SNK CORPORATION ALL RIGHTS RESERVED.",
+        "footer2": "※ 'PlayStation' and 'PS4' are registered trademarks or trademarks of Sony Interactive Entertainment Inc.",
+        "footer3": "※ Nintendo Switch is a trademark of Nintendo.",
+        "footer4": "※ © 2024 Valve Corporation. Steam and the Steam logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries."
+    }
+}

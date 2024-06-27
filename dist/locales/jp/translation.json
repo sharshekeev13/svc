@@ -1,0 +1,134 @@
+{
+    "header": {
+        "menu": {
+            "top": "TOP",
+            "characters": "CHARACTERS",
+            "battle_system": "BATTLE SYSTEM",
+            "online_battle": "ONLINE BATTLE",
+            "gallery_mode": "GALLERY MODE",
+            "product": "PRODUCT"
+        },
+        "images": {
+            "snk_logo": "/src/components/imgHeader/logo.png"
+        }
+    },
+    "top": {
+        "texts": {
+            "top_text_1": "好評発売中",
+            "top_text_2": "購入はこちら",
+            "launch_trailer": "LAUNCH TRAILER"
+        },
+        "images": {
+            "key_art": "/src/components/imgTop/key-art.png",
+            "platforms_ps4": "/src/components/imgTop/ps4.png",
+            "platforms_switch": "/src/components/imgTop/nintendo.jpeg",
+            "platforms_steam": "/src/components/imgTop/steam.jpeg",
+            "platforms_gog": "/src/components/imgTop/gog.jpeg",
+            "main_logo": "/src/components/imgTop/CHAOS.png"
+        }
+    },
+    "underside": {
+        "texts": {
+            "collaboration_announcement": "SNKとCAPCOMの人気キャラクターたちが夢のコラボ！",
+            "release_year": "2003年にアーケードで登場した格闘ゲーム",
+            "game_name": "『SVC CHAOS』がグレードアップして復活！"
+        },
+        "images": {
+            "snk_logo": "/src/components/imgUndersideSNK/snk.png",
+            "photo1": "/src/components/imgUndersideSNK/photo1.png",
+            "photo2": "/src/components/imgUndersideSNK/photo2.png",
+            "photo3": "/src/components/imgUndersideSNK/photo3.png",
+            "photo4": "/src/components/imgUndersideSNK/photo4.png",
+            "photo5": "/src/components/imgUndersideSNK/photo5.png",
+            "x": "/src/components/imgUndersideSNK/x.png",
+            "capcom_logo": "/src/components/imgUndersideCapCom/capcom.png",
+            "capcom_photo1": "/src/components/imgUndersideCapCom/photo1.png",
+            "capcom_photo2": "/src/components/imgUndersideCapCom/photo2.png",
+            "capcom_photo3": "/src/components/imgUndersideCapCom/photo3.png",
+            "capcom_photo4": "/src/components/imgUndersideCapCom/photo4.png",
+            "capcom_photo5": "/src/components/imgUndersideCapCom/photo5.png"
+        }
+    },
+    "characters": {
+        "texts": {
+            "characters_text1": "SNK と CAPCOMのキャラクター",
+            "characters_text2": "総勢 36 体が集結！",
+            "characters_text3": "SNK からは「草薙 京」「テリー・ボガード」「不知火 舞」といった格闘ゲームキャラクターに加え、「マーズピープル」や「アテナ」が登場！",
+            "characters_text4": "CAPCOM からは「リュウ」「春麗」「デミトリ」などの格闘ゲームキャラクターと共に「ゼロ」、「レッドアリーマー」も参戦！",
+            "characters_text5": "両社合わせて総勢36体のキャラクターが使用可能！",
+            "characters_text6": "ア ー ケ ー ド 版 で は 隠 し キ ャ ラ ク タ ー だ っ た",
+            "characters_text7": "「 ア テ ナ 」 と 「 レ ッ ド ア リ ー マ ー 」 が、",
+            "characters_text8": "最 初 か ら 使 用 可 能 "
+        }
+    },
+    "battle_system": {
+        "title": "BATTLE SYSTEM",
+        "subtitle": "バトルシステム",
+        "text1": "潰すか、潰されるか・・・究極の 1 vs 1 バトル !",
+        "text2": "ステップからいつでも攻撃へ移行可能な「フロントグランドステップ」、",
+        "text3": "3段階まで溜めることができる「グルーヴパワーゲージシステム」、",
+        "text4": "そして超必殺技を遙かに上回る大技「エクシード技」などのシステムを搭載！",
+        "images": {
+            "battle1": "/src/components/imgBattleSystem/battleSystem1.jpg",
+            "battle2": "/src/components/imgBattleSystem/battleSystem2.jpg",
+            "battle3": "/src/components/imgBattleSystem/battleSystem3.jpg",
+            "battle4": "/src/components/imgBattleSystem/battleSystem4.jpg",
+            "battle5": "/src/components/imgBattleSystem/battleSystem5.png",
+            "battle6": "/src/components/imgBattleSystem/battleSystem6.jpg",
+            "new_feature": "/src/components/imgBattleSystem/new.png"
+        },
+        "new_feature": {
+            "title": "キャラクターごとの",
+            "subtitle": "当たり判定の範囲が分かる",
+            "description": "「当たり判定表示機能」を新搭載！"
+        }
+    },
+    "online_battle": {
+        "new_section": {
+            "title": "オンラインバトルがより快適でエキサイティングに！",
+            "description": "新しいロールバックネットコードと最大9人のプレイヤーに対応するロビーファンクション！",
+            "tournament_mode": "シングル、ダブルエリミネーション、リーグ形式から選べるトーナメントモード！",
+            "challenge": "世界中のプレイヤーに挑戦しよう！"
+        },
+        "images": {
+            "photo1": "/src/components/imgOnlineBattle/onlineBattle.jpg",
+            "photo2": "/src/components/imgOnlineBattle/onlineBattle2.jpg",
+            "photo3": "/src/components/imgOnlineBattle/onlineBattle3.jpg",
+            "photo4": "/src/components/imgOnlineBattle/onlineBattle4.jpg",
+            "photo5": "/src/components/imgOnlineBattle/onlineBattle5.png",
+            "new": "/src/components/imgOnlineBattle/new.png"
+        }
+    },
+    "gallery_mode": {
+        "title": "GALLERY MODE",
+        "subtitle": "ギャラリーモード",
+        "texts": {
+            "header": "キーアートやキャラクターイラストを収録！",
+            "description1": "本作のキーアートやキャラクターイラストなど全89枚が閲覧できるギャラリーモードを新搭載!",
+            "description2": "『SVC CHAOS』を存分に楽しもう！"
+        },
+        "images": {
+            "new": "/src/components/imgGalleryMode/new.png",
+            "gallery1": "/src/components/imgGalleryMode/galleryMode1.png",
+            "gallery2": "/src/components/imgGalleryMode/galleryMode2.png",
+            "gallery3": "/src/components/imgGalleryMode/galleryMode3.png"
+        }
+    },
+    "product": {
+        "availableNow": "好評発売中",
+        "buyOnPS": "PlayStation™︎Storeで購入する",
+        "buyOnNintendo": "Nintendo eShopで購入する",
+        "buyOnSteam": "Steam Storeで購入する",
+        "buyOnGOG": "GOG Storeで購入する",
+        "infoTitle": "タイトル概要",
+        "gameTitle": "■タイトル名： SNK VS. CAPCOM SVC CHAOS",
+        "genre": "■ジャンル： 対戦格闘",
+        "platforms": "■プラットフォーム： PlayStation®4 / Nintendo Switch / Steam / GOG",
+        "price": "■価格： 3,960円 (税込) ※デジタル版",
+        "releaseDate": "■発売日： 2024年7月〇〇日",
+        "footer1": "©SNK CORPORATION ALL RIGHTS RESERVED.",
+        "footer2": "※ “PlayStation”および“PS4”は株式会社ソニー・インタラクティブエンタテインメントの登録商標または商標です。",
+        "footer3": "※Nintendo Switch is a trademark of Nintendo.",
+        "footer4": "※© 2024 Valve Corporation. Steam and the Steam logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries."
+    }
+}

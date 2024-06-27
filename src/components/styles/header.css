@@ -1,0 +1,180 @@
+/* styles/header.css */ 
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"); 
+ 
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+} 
+ 
+.header { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: #000094; 
+  padding: 1.5rem 3rem; 
+  height: 100px; 
+  position: fixed; /* Make header fixed */ 
+  top: 0; /* Fix it to the top */ 
+  width: 100%; /* Ensure it spans the width of the page */ 
+  z-index: 1000; /* Ensure it appears above other content */ 
+} 
+ 
+.logo { 
+  cursor: pointer; 
+} 
+ 
+.nav-menu { 
+  overflow-x: auto; 
+  white-space: nowrap; 
+} 
+ 
+.nav-menu ul { 
+  display: inline-flex; 
+  list-style: none; 
+  padding: 0; 
+  margin: 0; 
+} 
+ 
+.nav-menu li { 
+  display: inline; 
+  margin: 0 1rem; 
+  color: white; 
+  cursor: pointer; 
+  font-family: "Open Sans", sans-serif; 
+  font-weight: 600; 
+  font-size: 19px; 
+} 
+ 
+ 
+.nav-menu li.active { 
+  color: #ffd500; 
+  font-weight: 900; 
+  transition: 0.3s; 
+} 
+ 
+.nav-menu a { 
+  text-decoration: none; 
+  color: inherit; 
+} 
+ 
+.language-selector { 
+  display: flex; 
+} 
+ 
+.jp-button, 
+.eng-button { 
+  border: none; 
+  cursor: pointer; 
+  font-family: "Open Sans", sans-serif; 
+  font-weight: 700; 
+  font-size: 1rem; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+} 
+ 
+.jp-button { 
+  margin-left: 1rem; 
+  padding: 0 3vh; 
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; 
+  border: 1px solid white; 
+  background-color: #000094; 
+  color: white; 
+} 
+ 
+.jp-button:hover { 
+  border: 1px solid rgb(165, 165, 165); 
+  background-color: #000068; 
+  color: rgb(165, 165, 165); 
+  transition: 0.3s; 
+} 
+ 
+.eng-button { 
+  margin-left: 1rem; 
+  padding: 0 2vh; 
+  border: 1px solid white; 
+  background-color: #000094; 
+  color: white; 
+} 
+ 
+.eng-button:hover { 
+  margin-left: 1rem; 
+  padding: 0 2vh; 
+  border: 1px solid rgb(165, 165, 165); 
+  background-color: #000068; 
+  color: rgb(165, 165, 165); 
+  transition: 0.3s; 
+} 
+ 
+.jp-button.active { 
+  background-color: yellow; 
+  color: #000094; 
+} 
+ 
+.eng-button.active { 
+  background-color: yellow; 
+  color: #000094; 
+} 
+ 
+.SNK { 
+  margin-left: 20px; 
+  margin-top: -5px; 
+} 
+ 
+/* Adjust top padding for the main content */ 
+body { 
+  padding-top: 100px; /* This should be the height of the header */ 
+} 
+ 
+/* A responsive design for smaller screens */ 
+@media (max-width: 768px) { 
+  .header { 
+    flex-direction: column; 
+    align-items: center; 
+    padding: 1rem; 
+    height: auto; 
+    text-align: center; 
+  } 
+ 
+  .nav-menu ul { 
+    flex-direction: column; 
+    align-items: center; 
+  } 
+ 
+  .nav-menu li { 
+    margin: 0.5rem 0; 
+  } 
+ 
+  .language-selector { 
+    margin-top: 1rem; 
+    justify-content: center; 
+  } 
+ 
+  .jp-button, 
+  .eng-button { 
+    width: 100%; 
+    margin: 1rem; 
+  } 
+ 
+  .SNK { 
+    margin-left: 0; 
+    margin-top: 1rem; 
+  } 
+} 
+ 
+@media (max-width: 480px) { 
+  .header { 
+    padding: 0.5rem; 
+  } 
+ 
+  .nav-menu li { 
+    font-size: 16px; 
+  } 
+ 
+  .jp-button, 
+  .eng-button { 
+    font-size: 0.9rem; 
+    padding: 0.5rem 1rem; 
+  } 
+}

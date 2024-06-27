@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.obBody {
+  background-color: black;
+  height: 1200px;
+}
+
+.OnlineBattleLine {
+  margin-top: -0px;
+  width: 100%;
+  height: 4px;
+  background-color: rgb(255, 255, 255);
+}
+.OnlineBattle > h1 {
+  color: rgb(0, 0, 0);
+  margin-left: 67px;
+  font-size: 35px;
+  letter-spacing: 3px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.OnlineBattle > p {
+  color: rgb(0, 0, 0);
+  margin-top: -7px;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 600;
+}
+.OnlineBattle {
+  width: 440px;
+  height: 75px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 548px;
+  clip-path: polygon(0 0, 100% 0, 84.9% 100%, 15% 100%);
+}
+
+.photoBlock {
+  margin-top: 100px;
+}
+
+.newPhoto {
+  margin-top: 120px;
+  margin-left: 330px;
+}
+.newPhoto > h1 {
+  color: white;
+  width: 500px;
+  text-align: center;
+  margin-left: 180px;
+  margin-top: -145px;
+  font-size: 40px;
+}
+.newPhoto > p {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  margin-left: 90px;
+  margin-top: 50px;
+}
+.newPhoto > h2 {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  margin-left: -50px;
+}
+
+.newPhoto > h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  margin-left: 260px;
+}
+
+.photoBlock1 {
+  margin-left: 170px;
+}
+.photoBlock2 {
+  margin-left: 440px;
+}
+.photoBlock3 {
+  margin-top: 50px;
+  margin-left: 170px;
+}
+.photoBlock4 {
+  margin-left: 440px;
+}
+.photoBlock5 {
+  margin-left: 455px;
+  margin-top: -430px;
+}
