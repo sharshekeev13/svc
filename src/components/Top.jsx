@@ -1,6 +1,12 @@
 // src/components/Top.jsx
 import React from "react";
 import { useTranslation } from "react-i18next";
+import Key_art from "./imgTop/key_art.png";
+import Platforms_Ps4 from "./imgTop/platforms_ps4.png";
+import Platforms__Switch from "./imgTop/platforms_switch.png";
+import Platfoms_Steam from "./imgTop/platforms_steam.png";
+import Platforms_Gog from "./imgTop/platforms_gog.png";
+import Main_Logo from "./imgTop/main_logo.png";
 import "./styles/top.css";
 
 const Top = () => {
@@ -11,7 +17,7 @@ const Top = () => {
       <div className="pers">
         <img
           className="pers"
-          src={t("top.images.key_art")}
+          src={t("top.images.key_art") || Key_art}
           alt=""
         />
       </div>
@@ -20,7 +26,7 @@ const Top = () => {
           <img
             className="ps4"
             width="120px"
-            src={t("top.images.platforms_ps4")}
+            src={t("top.images.platforms_ps4") || Platforms_Ps4}
             alt="PS4"
           />
         </div>
@@ -29,7 +35,7 @@ const Top = () => {
           <img
             className="nintendo"
             width="120px"
-            src={t("top.images.platforms_switch")}
+            src={t("top.images.platforms_switch") || Platforms__Switch}
             alt="Nintendo"
           />
         </div>
@@ -38,7 +44,7 @@ const Top = () => {
           <img
             className="steam"
             width="120px"
-            src={t("top.images.platforms_steam")}
+            src={t("top.images.platforms_steam") || Platfoms_Steam}
             alt="Steam"
           />
         </div>
@@ -47,7 +53,7 @@ const Top = () => {
           <img
             className="gog"
             width="100px"
-            src={t("top.images.platforms_gog")}
+            src={t("top.images.platforms_gog") || Platforms_Gog}
             alt="GOG"
           />
         </div>
@@ -56,7 +62,7 @@ const Top = () => {
           <img
             className="chaos"
             width="630px"
-            src={t("top.images.main_logo")}
+            src={t("top.images.main_logo") || Main_Logo}
             alt="Chaos Logo"
           />
         </div>
